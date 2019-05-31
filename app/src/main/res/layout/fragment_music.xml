@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#4E69F3"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/img_view"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/img_view" />
+    <LinearLayout
+        android:padding="10dp"
+        android:id="@+id/lineLyricItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentBottom="true">
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/txtLyricItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nameOfSinger"
+            android:textColor="#ffffff"
+            android:textSize="17sp"
+            android:maxLines="2"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:tool="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragLyric"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+   <android.support.v7.widget.RecyclerView
+       android:layout_weight="1"
+       android:id="@+id/rcViewLick"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       tools:itemCount="10"
+       tools:listitem="@layout/stirng_lyric">
+   </android.support.v7.widget.RecyclerView>
+</LinearLayout>
